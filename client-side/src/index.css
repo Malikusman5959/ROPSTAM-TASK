@@ -1,0 +1,49 @@
+/* font-family*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App
+{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mybackdrop
+{
+  backdrop-filter: blur(4px);
+}
+
+.mycard
+{
+  background-color: #dadada16;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mybtn
+{
+  background-color: #1f3b8a;
+  padding: 2px 20px;
+  border-radius: 8px;
+  margin : 5px 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.mybtn:hover
+{
+  background-color: #095abd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

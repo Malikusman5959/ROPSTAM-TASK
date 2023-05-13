@@ -1,0 +1,34 @@
+.table
+{
+    /* width: 100%; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table-data , .table-row , .table-header
+{
+    border : 1px solid rgba(255, 255, 255, 0.157)
+}
+
+.table-data{
+color : white
+}
+
+.table-header{
+    padding: 6px;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.table-btn
+{
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.page-no
+{
+    color: white;
+    margin: 5px;
+}
